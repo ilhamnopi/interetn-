@@ -18,8 +18,8 @@ $lightgray: #f6f6f6;
         fill: #0a008f !important;
         display: block;
         position: absolute;
-        left: -100px;
-        top: -100px;
+        left: -120px;
+        top: -130px;
     }
     &::after {
         content: url(../images/dots-blue.svg);
@@ -50,6 +50,7 @@ header {
     figure {
         max-width: 4.5rem;
         width: 100%;
+        max-width: 73.57px;
         margin: 16px;
         img {
             width: 100%;
@@ -140,21 +141,22 @@ header {
 footer {
     margin-top: 20px;
     & > * {
-        max-width: 567px;
         line-height: 24px;
         letter-spacing: -0.108px;
+        text-align: center;
     }
     h4 {
         font-size: 16.6px;
-        font-weight: 500;
-        margin-bottom: 10px;
+        font-weight: 600;
+        margin-bottom: 5px;
     }
     p {
         font-size: 14px;
         color: $grey;
+        font-weight: 500;
     }
     p:nth-last-child(1) {
-        margin-top: 10px;
+        margin-top: 5px;
         color: $black;
         font-weight: 500;
     }
